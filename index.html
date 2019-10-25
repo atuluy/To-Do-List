@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do-List</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="headContainer">
+        <div class="logo">
+          <img src="images/Spiral-note-pad3.png" alt="Logo" />
+        </div>
+        <div class="mainHeader">
+          <h1>To Do List</h1>
+          <p>only for daily use</p>
+        </div>
+      </div>
+    </header>
+    <div class="mainContainer">
+      <div class="entryPart">
+        <h1>Add Your Plans</h1>
+
+        <input id="addText" type="text" placeholder="Add here..." />
+
+        <button id="btn">Add to List</button>
+        <div>
+          <button id="btn2">Clear List</button>
+        </div>
+      </div>
+      <div class="listPart">
+        <h1 id="currentDate">24.10.2019</h1>
+        <p id="list"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
